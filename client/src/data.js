@@ -361,7 +361,7 @@ export const cardData = [
   {
     title: 'Science',
     photo:
-      'http://www.freepngclipart.com/download/science/10996-math-and-science-png-images.jpg',
+      'https://images.unsplash.com/photo-1554475900-0a0350e3fc7b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c2NpZW5jZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60',
     video: 'https://www.youtube.com/watch?v=wVLaf10T0zI',
     link:'https://www.udemy.com/course/a-complete-introduction-to-biology/',
     questions : [
