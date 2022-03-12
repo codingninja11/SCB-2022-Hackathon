@@ -25,9 +25,7 @@ const Card = ({ card }) => {
       <div style={{ padding: '1rem 1rem 0.5rem 1rem' }}>
         <img src={card.photo} alt="" width="100" height="100" />
       </div>
-      <div style={{ overflow: 'hidden' }}>
-        <div>{card.description}</div>
-      </div>
+      
       <div style={{ padding: '0.5rem 1rem 0rem 1rem' }}>
         <Link to={`/courses/${card.title}`}>
           <button
