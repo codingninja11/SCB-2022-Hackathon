@@ -1,45 +1,10 @@
-import { Link } from 'react-router-dom';
+import './Footer.css';
 const Footer = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'space-evenly',
-        background: 'grey',
-        color: 'white',
-        padding: '1rem 0rem 1rem 0rem',
-      }}
-    >
-      <div>
-        Other Links
-        <div>
-          <ul>
-            <li>About Us</li>
-            <li>Contact Us</li>
-            <li>Privacy Policy</li>
-            <li>Terms Of Use</li>
-          </ul>
-        </div>
-      </div>
-      <div>
-        Social Links
-        <div>
-          <ul>
-            <li>
-              <Link to="#">Insta</Link>
-            </li>
-            <li>
-              <Link to="#">Facebook</Link>
-            </li>
-            <li>
-              <Link to="#">Youtube</Link>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div>Contact</div>
-      <div>Office</div>
+      <div className='footer'>
+        <span>Made with ❤ by DEMOS!</span>
     </div>
+
   );
 };
 
