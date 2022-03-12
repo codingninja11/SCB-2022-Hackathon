@@ -8,7 +8,7 @@ export const cardData = [
     },
     {
       title: 'JS',
-      photo: 'https://cdn.worldvectorlogo.com/logos/javascript-icon.svg',
+      photo: 'https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png',
       video: 'https://youtu.be/c-I5S_zTwAc',
       description:
         'JavaScript is a high-level, dynamic, untyped, and interpreted programming language. It has been standardized in the ECMAScript language specification. Alongside HTML and CSS, it is one of the three core technologies of World Wide Web content production; the majority of websites employ it, and all modern Web browsers support it without the need for plug-ins. JavaScript is prototype-based with first-class functions, making it a multi-paradigm language, supporting object-oriented, imperative, and functional programming styles. JavaScript was created by Brendan Eich in 1995 as the successor to Microsoft’s Active Scripting. It is now part of the ECMAScript language specification, and is a strict subset of Cascading Style Sheets (CSS) and the Document Object Model (DOM).',
@@ -23,12 +23,12 @@ export const cardData = [
     },
     {
       title: 'Science',
-      photo: 'https://cdn.worldvectorlogo.com/logos/science.svg',
+      photo: 'http://www.freepngclipart.com/download/science/10996-math-and-science-png-images.jpg',
       description: 'Science is a good subject',
     },
     {
       title: 'Maths',
-      photo: 'https://cdn.worldvectorlogo.com/logos/mathematics.svg',
+      photo: 'https://w7.pngwing.com/pngs/708/818/png-transparent-computer-icons-scientific-calculator-symbol-mathematics-calculator-electronics-computer-logo.png',
       description: 'Science is a good subject',
     },
   ];
