@@ -7,7 +7,7 @@ const Homepage = () => {
       <div>
         <div
           style={{
-            background: 'cyan',
+            background: 'rgb(68, 177, 204)',
             textAlign: 'center',
             margin: '10px 30px 10px 30px',
             borderRadius: '1rem',

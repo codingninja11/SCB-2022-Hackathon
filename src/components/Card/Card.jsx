@@ -14,7 +14,7 @@ const Card = ({ card }) => {
         display: 'flex',
         flexDirection: 'column',
         textAlign: 'center',
-        background: 'cyan',
+        background: 'rgb(170, 79, 188)',
         borderRadius: '2rem',
       }}
     >
