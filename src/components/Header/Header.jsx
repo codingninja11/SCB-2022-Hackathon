@@ -16,13 +16,7 @@ const Header = () => {
       }}
     >
       <Link to="/">
-        <img
-          src={logo}
-          alt="logo"
-          width="70"
-          height="70"
-          style={{ borderRadius: '50%' }}
-        />
+        <span><h3><i>DEMOS</i></h3></span>
       </Link>
 
       <div style={{ display: 'flex' }}>

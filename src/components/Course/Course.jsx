@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom';
 import { cardData, questions } from '../../data';
 import ReactPlayer from 'react-player';
 import { useState } from 'react';
+import './Course.css';
 const Course = () => {
   const { id } = useParams();
   const filterdData = cardData.filter((data) => data.title === id);
@@ -26,16 +27,6 @@ const Course = () => {
       >
         <div
           style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            width: '50%',
-          }}
-        >
-          <span style={{ fontSize: '10rem', fontWeight: '900' }}>{id}</span>
-        </div>
-        <div
-          style={{
             width: '50%',
           }}
         >
@@ -44,13 +35,14 @@ const Course = () => {
       </div>
       <div style={{ fontWeight: '600', fontSize: '1.5rem' }}>About</div>
       <div style={{ fontSize: '1rem' }}>{filterdData[0].description}</div>
-      <div>
+      <div className='play'>
         <div
           style={{
             display: 'flex',
             justifyContent: 'space-around',
             fontSize: '2rem',
             fontWeight: '500',
+            marginBottom: '2rem',
           }}
         >
           <div>Play The Quiz Here!</div>
