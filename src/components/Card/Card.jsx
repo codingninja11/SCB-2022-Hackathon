@@ -1,20 +1,53 @@
+import { Link } from 'react-router-dom';
+
 const Card = ({ card }) => {
-    return (
-      <div
-        style={{
-          width: '200px',
-          height: '200px',
-          padding: '10px',
-          background: 'red',
-          margin: '1rem',
-        }}
-      >
-        <div>
-          <span>{card.title}</span>
+  // console.log(card.photo);
+  console.log(`Hello ${card.title}`);
+  return (
+    <div
+      style={{
+        width: '300px',
+        height: '300px',
+        padding: '10px',
+        margin: '1rem',
+        border: '1px solid black',
+        display: 'flex',
+        flexDirection: 'column',
+        textAlign: 'center',
+        background: 'cyan',
+        borderRadius: '2rem',
+      }}
+    >
+      <div style={{ padding: '1rem' }}>
+        <div style={{ fontSize: '2.5rem', fontWeight: '600' }}>
+          {card.title}
         </div>
       </div>
-    );
-  };
-  
-  export default Card;
-  
+      <div style={{ padding: '1rem 1rem 0.5rem 1rem' }}>
+        <img src={card.photo} alt="" width="100" height="100" />
+      </div>
+      <div style={{ overflow: 'hidden' }}>
+        <div>{card.description}</div>
+      </div>
+      <div style={{ padding: '0.5rem 1rem 0rem 1rem' }}>
+        <Link to={`/courses/${card.title}`}>
+          <button
+            style={{
+              background: '#4CAF50',
+              height: '30px',
+              width: '10rem',
+              color: 'white',
+              border: 'none',
+              borderRadius: '2rem',
+              fontWeight: '600',
+            }}
+          >
+            View Course
+          </button>
+        </Link>
+      </div>
+    </div>
+  );
+};
+
+export default Card;

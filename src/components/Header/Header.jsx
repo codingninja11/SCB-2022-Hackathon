@@ -29,15 +29,24 @@ const Header = () => {
         <div style={{ marginRight: '3rem' }}>
           <Link to="/">Home</Link>
         </div>
-        <div>
+
         <div style={{ marginRight: '3rem' }}>
           <Link to="/about">About</Link>
-          </div>
         </div>
-        <div style={{ display: 'flex' }}>
-        <div style={{ marginRight: '3rem' }}>
-          <Link to="/">Login</Link>
-          </div>
+
+        <div
+          style={{
+            marginRight: '3rem',
+          }}
+        >
+          <Link to="/login">Login</Link>
+        </div>
+        <div
+          style={{
+            marginRight: '3rem',
+          }}
+        >
+          <Link to="/register">Register</Link>
         </div>
       </div>
     </div>

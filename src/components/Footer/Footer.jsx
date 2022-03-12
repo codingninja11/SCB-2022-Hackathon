@@ -1,7 +1,15 @@
 import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
-    <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+    <div
+      style={{
+        display: 'flex',
+        justifyContent: 'space-evenly',
+        background: 'grey',
+        color: 'white',
+        padding: '1rem 0rem 1rem 0rem',
+      }}
+    >
       <div>
         Other Links
         <div>
