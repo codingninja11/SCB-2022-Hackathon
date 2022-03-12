@@ -1,6 +1,8 @@
-import { Link } from 'react-router-dom';
-
 const Card = ({ card }) => {
+  const handleClick = () => {
+    const user = localStorage.getItem('userName');
+    user?window.location.href=`/courses/${card.title}`:alert('Please login first');
+  }
   console.log(`Hello ${card.title}`);
   return (
     <div
@@ -27,8 +29,8 @@ const Card = ({ card }) => {
       </div>
       
       <div style={{ padding: '0.5rem 1rem 0rem 1rem' }}>
-        <Link to={`/courses/${card.title}`}>
-          <button
+        {/* <Link to={`/courses/${card.title}`}> */}
+          <button onClick={handleClick}
             style={{
               background: '#4CAF50',
               height: '30px',
@@ -41,7 +43,7 @@ const Card = ({ card }) => {
           >
             View Course
           </button>
-        </Link>
+        {/* </Link> */}
       </div>
     </div>
   );

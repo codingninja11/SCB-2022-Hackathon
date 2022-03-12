@@ -24,7 +24,6 @@ const Homepage = () => {
           display: 'flex',
           margin: '20px',
           flexWrap: 'wrap',
-          border: '1px solid black',
         }}
       >
         {cardData.map((card, index) => {
