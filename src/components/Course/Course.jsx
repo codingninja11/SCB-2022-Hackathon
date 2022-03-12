@@ -1,8 +1,8 @@
-import { useParams } from 'react-router-dom';
-import { cardData, questions } from '../../data';
-import ReactPlayer from 'react-player';
-import { useState } from 'react';
-import './Course.css';
+import { useParams } from "react-router-dom";
+import { cardData, questions } from "../../data";
+import ReactPlayer from "react-player";
+import { useState } from "react";
+import "./Course.css";
 const Course = () => {
   const { id } = useParams();
   const filterdData = cardData.filter((data) => data.title === id);
@@ -16,58 +16,72 @@ const Course = () => {
     }
   };
   return (
-    <div style={{ padding: '1rem' }}>
+    <div style={{ padding: "1rem" }}>
       <div
         style={{
-          display: 'flex',
-          justifyContent: 'space-evenly',
-          margin: '2rem 1rem 2rem 1rem',
-          width: '100%',
+          display: "flex",
+          justifyContent: "space-evenly",
+          margin: "2rem 1rem 2rem 1rem",
+          width: "100%",
         }}
       >
         <div
           style={{
-            width: '50%',
+            width: "50%",
           }}
         >
           <ReactPlayer url={filterdData[0].video} />
         </div>
       </div>
-      <div style={{ fontWeight: '600', fontSize: '1.5rem' }}>About</div>
-      <div style={{ fontSize: '1rem' }}>{filterdData[0].description}</div>
-      <div className='play'>
+      <div style={{ fontWeight: "600", fontSize: "1.5rem" }}>About</div>
+      <div style={{ fontSize: "1rem" }}>{filterdData[0].description}</div>
+      <div className="play">
         <div
           style={{
             display: 'flex',
             justifyContent: 'space-around',
             fontSize: '2rem',
             fontWeight: '500',
-            marginBottom: '2rem',
           }}
         >
           <div>Play The Quiz Here!</div>
           <div>Score:{score}</div>
         </div>
 
-        <div>
-          {questions.map((q) => {
+        <div style={{marginLeft:"1rem"}}>
+          {questions.map((q, index) => {
             return (
-              <>
-                <div>{q.question}</div>
-                {q.options.map((option) => {
-                  return (
-                    <div>
-                      <input
-                        type="radio"
-                        name="option"
-                        value={option.ans}
-                        onChange={() => handleClick(option)}
-                      />
-                      <span>{option.ans}</span>
-                    </div>
-                  );
-                })}
-              </>
+              <div style={{ margin: '1rem' , backgroundColor: '#AA4FBC' , padding:'1rem' , borderRadius:'2rem'}}>
+                <div style={{ fontSize: '1.2rem', fontWeight: 'bold' }}>
+                  {index + 1}. {q.question}
+                </div>
+                <div
+                  style={{
+                    display: 'flex',
+                    flexWrap: 'wrap',
+                  }}
+                >
+                  {q.options.map((option) => {
+                    return (
+                      <div
+                        style={{ width: '50%', margin: '1rem 0rem 0rem 0rem' }}
+                      >
+                        <input
+                          type="radio"
+                          name="option"
+                          value={option.ans}
+                          onChange={() => handleClick(option)}
+                        />
+                        <span
+                          style={{ marginLeft: '1rem', fontSize: '1rem' }}
+                        >
+                          {option.ans}
+                        </span>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
             );
           })}
         </div>

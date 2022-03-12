@@ -24,11 +24,13 @@ export const cardData = [
     {
       title: 'Science',
       photo: 'http://www.freepngclipart.com/download/science/10996-math-and-science-png-images.jpg',
+      video: 'https://www.youtube.com/watch?v=wVLaf10T0zI',
       description: 'Science is a good subject',
     },
     {
       title: 'Maths',
       photo: 'https://w7.pngwing.com/pngs/708/818/png-transparent-computer-icons-scientific-calculator-symbol-mathematics-calculator-electronics-computer-logo.png',
+      video: 'https://www.youtube.com/watch?v=wVLaf10T0zI',
       description: 'Science is a good subject',
     },
   ];
