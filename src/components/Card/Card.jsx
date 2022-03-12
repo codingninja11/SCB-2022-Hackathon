@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 
 const Card = ({ card }) => {
-  // console.log(card.photo);
   console.log(`Hello ${card.title}`);
   return (
     <div

@@ -7,10 +7,10 @@ export const cardData = [
         'Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web. Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.',
     },
     {
-      title: 'JS',
-      photo: 'https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png',
-      video: 'https://youtu.be/c-I5S_zTwAc',
-      description:
+        title: 'JS',
+        photo: 'https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png',
+        video: 'https://youtu.be/c-I5S_zTwAc',
+        description:
         'JavaScript is a high-level, dynamic, untyped, and interpreted programming language. It has been standardized in the ECMAScript language specification. Alongside HTML and CSS, it is one of the three core technologies of World Wide Web content production; the majority of websites employ it, and all modern Web browsers support it without the need for plug-ins. JavaScript is prototype-based with first-class functions, making it a multi-paradigm language, supporting object-oriented, imperative, and functional programming styles. JavaScript was created by Brendan Eich in 1995 as the successor to Microsoft’s Active Scripting. It is now part of the ECMAScript language specification, and is a strict subset of Cascading Style Sheets (CSS) and the Document Object Model (DOM).',
     },
     {
@@ -30,6 +30,115 @@ export const cardData = [
       title: 'Maths',
       photo: 'https://w7.pngwing.com/pngs/708/818/png-transparent-computer-icons-scientific-calculator-symbol-mathematics-calculator-electronics-computer-logo.png',
       description: 'Science is a good subject',
+    },
+  ];
+  
+  export const questions = [
+    {
+      question: 'What is the name of the language used to create the web?',
+  
+      options: [
+        {
+          ans: 'HTML',
+          correct: true,
+        },
+        {
+          ans: 'CSS',
+          correct: false,
+        },
+        {
+          ans: 'JS',
+          correct: false,
+        },
+        {
+          ans: 'Python',
+          correct: false,
+        },
+      ],
+    },
+    {
+      question: 'What is the name of the language used to create the web?',
+      options: [
+        {
+          ans: 'HTML',
+          correct: true,
+        },
+        {
+          ans: 'CSS',
+          correct: false,
+        },
+        {
+          ans: 'JS',
+          correct: false,
+        },
+        {
+          ans: 'Python',
+          correct: false,
+        },
+      ],
+    },
+    {
+      question: 'What is the name of the language used to create the web?',
+      options: [
+        {
+          ans: 'HTML',
+          correct: true,
+        },
+        {
+          ans: 'CSS',
+          correct: false,
+        },
+        {
+          ans: 'JS',
+          correct: false,
+        },
+        {
+          ans: 'Python',
+          correct: false,
+        },
+      ],
+    },
+    {
+      question: 'What is the name of the language used to create the web?',
+      options: [
+        {
+          ans: 'HTML',
+          correct: true,
+        },
+        {
+          ans: 'CSS',
+          correct: false,
+        },
+        {
+          ans: 'JS',
+          correct: false,
+        },
+        {
+          ans: 'Python',
+          correct: false,
+        },
+      ],
+    },
+    {
+      question: 'What is the name of the language used to create the web?',
+      options: [
+        {
+          ans: 'HTML',
+          correct: true,
+        },
+        {
+          ans: 'CSS',
+          correct: false,
+        },
+        {
+          ans: 'JS',
+          correct: false,
+        },
+        {
+          ans: 'Python',
+          correct: false,
+        },
+      ],
     },
   ];
   
