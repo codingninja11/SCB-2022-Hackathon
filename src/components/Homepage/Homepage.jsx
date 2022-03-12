@@ -1,9 +1,13 @@
-import React from 'react'
-
-function Homepage() {
+import { cardData } from '../../data';
+import Card from '../Card/Card';
+const Homepage = () => {
   return (
-    <div>Homepage</div>
-  )
-}
+    <div style={{ display: 'flex', margin: '20px' }}>
+      {cardData.map((card, index) => {
+        return <Card key={index} card={card} />;
+      })}
+    </div>
+  );
+};
 
-export default Homepage
+export default Homepage;
