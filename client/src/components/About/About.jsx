@@ -6,7 +6,7 @@ function About() {
   return (
     <div>
     <div className="about-section">
-    <h1>About Us Page</h1>
+    <h1>About Us</h1>
     <img className='image' src={logo} alt="Logo" />
     <br></br>
     <p 
