@@ -15,7 +15,7 @@ const Register = () => {
       password,
     };
     axios
-      .post('http://localhost:5000/register', user)
+      .post('https://demos-edu.herokuapp.com/register', user)
       .then((res) => {
         console.log(res.data);
         alert('Register Successful');

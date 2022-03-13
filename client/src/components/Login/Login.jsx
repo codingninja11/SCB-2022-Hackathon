@@ -13,7 +13,7 @@ const Login = () => {
       password,
     };
     axios
-      .post('http://localhost:5000/login', user)
+      .post('https://demos-edu.herokuapp.com/login', user)
       .then((res) => {
         console.log(res.data);
         localStorage.setItem('userName', res.data.name);
