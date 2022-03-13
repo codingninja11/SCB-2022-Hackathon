@@ -1,4 +1,4 @@
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { cardData } from "../../data";
 import ReactPlayer from "react-player";
 import { useState } from "react";
