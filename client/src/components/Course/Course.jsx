@@ -97,7 +97,7 @@ const Course = () => {
                       >
                         <input
                           type="radio"
-                          name="option"
+                          name={q.question}
                           value={option.ans}
                           onChange={() => handleClick(option)}
                         />
