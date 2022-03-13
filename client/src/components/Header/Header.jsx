@@ -21,11 +21,7 @@ const Header = () => {
       }}
     >
       <Link to="/">
-        <span>
-          <h3>
-            <i>DEMOS</i>
-          </h3>
-        </span>
+          <h3> <i>DEMOS</i></h3>
       </Link>
 
       <div style={{ display: 'flex' }}>
@@ -55,18 +51,12 @@ const Header = () => {
         ) : (
           <>
             <div
-              style={{
-                marginRight: '3rem',
-              }}
-            >
-              <Link to="/login">Login</Link>
+              style={{ marginRight: '3rem' }}
+            ><Link to="/login">Login</Link>
             </div>
             <div
-              style={{
-                marginRight: '3rem',
-              }}
-            >
-              <Link to="/register">Register</Link>
+              style={{ marginRight: '3rem' }}
+            ><Link to="/register">Register</Link>
             </div>
           </>
         )}
