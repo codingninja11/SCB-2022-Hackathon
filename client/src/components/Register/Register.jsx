@@ -33,15 +33,12 @@ const Register = () => {
       <div className="container">
         <div className="col-left">
           <div className="Register-text">
-            <h2>Logo</h2>
+          <h2>DEMOS</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
-              eros dapibus, ultricies tellus vitae, consectetur tortor. Etiam
-              rutrum placerat
+            We want to create a platform that transforms the way
+    girls perceive code education and software engineering. The game is designed
+    to teach girls practical, real-world coding skills via highly gamified, story-driven gameplay.
             </p>
-            <a className="btn" href="">
-              Read More
-            </a>
           </div>
         </div>
         <div className="col-right">
