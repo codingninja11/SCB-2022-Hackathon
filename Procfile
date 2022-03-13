@@ -1,0 +1,1 @@
+web: sh -c 'cd ./directory/ && exec node index.js'
