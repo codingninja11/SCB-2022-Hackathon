@@ -1,7 +1,7 @@
 const Card = ({ card }) => {
   const handleClick = () => {
     const user = localStorage.getItem('userName');
-    user?window.location.href=`/courses/${card.title}`:alert('Please login first');
+    user?window.location.href=`/courses/${card.title}`:alert('Please ENROLL first');
   }
   console.log(`Hello ${card.title}`);
   return (
