@@ -4,6 +4,7 @@ nav {
     height: 60px;
     background:  #0F1624;
     position: fixed;
+    z-index: 1;
 }
 
 .list {
