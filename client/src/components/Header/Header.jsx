@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import React, {useState, useEffect} from 'react';
 import './Header.css';
+import logo from '../../assets/logo.png';
 
 const Header = () => {
 
@@ -46,8 +47,10 @@ const Header = () => {
     >
       
        <nav>
+         
        {(toggleMenu || screenWidth > 600) && (
       <ul className="list">
+      <li><img src={logo} className='list1' alt='logo'></img></li>
           <li className="items">
           <Link to="/">Home</Link>
           </li>
