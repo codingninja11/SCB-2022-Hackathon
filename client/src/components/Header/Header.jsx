@@ -50,7 +50,7 @@ const Header = () => {
          
        {(toggleMenu || screenWidth > 600) && (
       <ul className="list">
-      <li><img src={logo} className='list1' alt='logo'></img></li>
+      <li> <Link to="/"><img src={logo} className='list1' alt='logo'></img></Link></li>
           <li className="items">
           <Link to="/">Home</Link>
           </li>
