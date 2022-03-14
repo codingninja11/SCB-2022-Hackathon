@@ -16,7 +16,8 @@ const Homepage = () => {
             fontSize: '2.5rem',
           }}
         >
-          Demos! Where You Learn And Play!
+        Demos! Where You Learn And Play!
+          {/* <marquee>Demos! Where You Learn And Play!</marquee> */}
         </div>
       </div>
       <div
