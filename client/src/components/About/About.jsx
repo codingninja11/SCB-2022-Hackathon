@@ -5,20 +5,18 @@ import './About.css';
 function About() {
   return (
     <div>
-    <div className="about-section">
-    <h1>About Us</h1>
-    <img className='image' src={logo} alt="Logo" />
+    <div class="about-section">
+    <h1>About Us Page</h1>
+    <img src={logo} alt="Logo"  class="responsive"/>
     <br></br>
-    <p 
-    style={{color:'white'}}>To inspire girls at a young age 
-    we want to create a platform that transforms the way
-    girls perceive code education and software engineering. The game is designed
-    to teach girls practical, real-world coding skills via highly gamified, story-driven gameplay.
-    This game should be able to teach basics of programming and development languages </p>
+    <p>To inspire girls at a young age </p>
+    <p>we want to create a platform that transforms the way</p>
+    <p>girls perceive code education and software engineering. The game is designed</p>
+    <p>to teach girls practical, real-world coding skills via highly gamified, story-driven gameplay.</p>
+    <p>This game should be able to teach basics of programming and development languages</p>
     <br>
     </br>
   </div>
-  
   </div>
   )
 }
