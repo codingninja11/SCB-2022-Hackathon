@@ -127,117 +127,120 @@ export const cardData = [
     questions: [
       
       {
-        question: 'What is the name of the language used to create the web?',
+        question: 'Javascript is an ______ language',
         options: [
           {
-            ans: 'HTML',
+            ans: 'Object-Oriented',
             correct: true,
           },
           {
-            ans: 'CSS',
+            ans: 'Object-Based',
             correct: false,
           },
           {
-            ans: 'JS',
-            correct: false,
-          },
-          {
-            ans: 'Python',
-            correct: false,
-          },
-        ],
-      },
- 
-      {
-        question: 'What does the abbreviation HTML stand for?',
-        options: [
-          {
-            ans: 'HighText Markup Language.',
-            correct: false,
-          },
-          {
-            ans: 'HyperText Markup Language.',
-            correct: true,
-          },
-          {
-            ans: 'HyperText Markdown Language.',
-            correct: false,
-          },
-          {
-            ans: 'None of the above.',
-            correct: false,
-          },
-        ],
-      },
- 
-      {
-        question: 'How many sizes of headers are available in HTML by default?',
-        options: [
-          {
-            ans: '5',
-            correct: false,
-          },
-          {
-            ans: '1',
-            correct: false,
-          },
-          {
-            ans: '3',
-            correct: false,
-          },
-          {
-            ans: '6',
-            correct: true,
-          },
-        ],
-      },
- 
-      {
-        question: 'What are the types of lists available in HTML?',
-        options: [
-          {
-            ans: 'Ordered , Unordered Lists.',
-            correct: true,
-          },
-          {
-            ans: 'Bulleted , Numbered Lists.',
-            correct: false,
-          },
-          {
-            ans: 'Named , Unnamed Lists.',
+            ans: 'Procedural',
             correct: false,
           },
           {
             ans: 'None of the above',
             correct: false,
           },
+  
         ],
       },
  
       {
-        question: 'Which of the following is correct about HTML?',
-        options: [
-          {
-            ans: 'HTML uses User Defined Tags.',
-            correct: false,
-          },
-          {
-            ans: 'HTML uses tags defined within the language',
-            correct: true,
-          },
-          {
-            ans: 'Both A and B.',
-            correct: false,
-          },
-          {
-            ans: 'None of the above.',
-            correct: false,
-          },
-        ],
-      },
+        question: 'Which of the following methods is used to access HTML elements using JavaScript?',
+      options: [
+        {
+          ans: 'getElementbyId()',
+          correct: false,
+        },
+        {
+          ans: 'getElementByClassName()',
+          correct: false,
+        },
+        {
+          ans: 'Both A and B',
+          correct: true,
+        },
+        {
+          ans: 'Python',
+          correct: false,
+        },
+      ],
+    },
+
+ {
+      question: 'Which of the following methods can be used to display data in some form using JavaScript?',
+      options: [
+        {
+          ans: 'document.write()',
+          correct: false,
+        },
+        {
+          ans: 'console.log()',
+          correct: false,
+        },
+        {
+          ans: 'window.alert()',
+          correct: false,
+        },
+        {
+          ans: 'All of the above',
+          correct: true,
+        },
+      ],
+    },
+
+ {
+      question: 'How can a datatype be declared to be a constant type?',
+      options: [
+        {
+          ans: 'const',
+          correct: true,
+        },
+        {
+          ans: 'var',
+          correct: false,
+        },
+        {
+          ans: 'let',
+          correct: false,
+        },
+        {
+          ans: 'constant',
+          correct: false,
+        },
+      ],
+    },
+
+
+ {
+      question: 'When an operators value  is NULL, the typeof returned by the unary operator is:',
+      options: [
+        {
+          ans: 'Boolean',
+          correct: false,
+        },
+        {
+          ans: 'Undefined',
+          correct: false,
+        },
+        {
+          ans: 'Object',
+          correct: true,
+        },
+        {
+          ans: 'Integer',
+          correct: false,
+        },
+      ],
+    },
+
     ],
     description:
-      'JavaScript is a high-level, dynamic, untyped, and interpreted programming language. It has been standardized in the ECMAScript language specification. Alongside HTML and CSS, it is one of the three core technologies of World Wide Web content production; the majority of websites employ it, and all modern Web browsers support it without the need for plug-ins. JavaScript is prototype-based with first-class functions, making it a multi-paradigm language, supporting object-oriented, imperative, and functional programming styles. JavaScript was created by Brendan Eich in 1995 as the successor to Microsoft’s Active Scripting. It is now part of the ECMAScript language specification, and is a strict subset of Cascading Style Sheets (CSS) and the Document Object Model (DOM).',
+      'JavaScript is a high-level, dynamic, untyped, and interpreted programming language. It has been standardized in the ECMAScript language specification. Alongside HTML and CSS, it is one of the three core technologies of World Wide Web content production; the majority of websites employ it, and all modern Web browsers support it without the need for plug-ins. JavaScript is prototype-based with first-class functions, making it a multi-paradigm language, supporting object-oriented, imperative, and functional programming styles. JavaScript was created by Brendan Eich in 1995 as the successor to Microsofts Active Scripting. It is now part of the ECMAScript language specification, and is a strict subset of Cascading Style Sheets (CSS) and the Document Object Model (DOM).',
   },
   {
     title: 'CSS',
