@@ -1,3 +1,4 @@
+import './Card.css';
 const Card = ({ card }) => {
   const handleClick = () => {
     const user = localStorage.getItem('userName');
@@ -5,7 +6,7 @@ const Card = ({ card }) => {
   }
   console.log(`Hello ${card.title}`);
   return (
-    <div
+    <div className="cards"
       style={{
         width: '300px',
         height: '300px',
